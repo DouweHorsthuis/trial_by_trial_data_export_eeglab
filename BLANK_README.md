@@ -1,3 +1,9 @@
+---
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -33,7 +39,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpeg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">trial by trial data export eeglab</h3>
