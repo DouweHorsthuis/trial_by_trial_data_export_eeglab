@@ -32,7 +32,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab">
+  <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -41,14 +41,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab">View Demo</a>
+    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//">View Demo</a>
     ·
-    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues">Report Bug</a>
+    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab///issues">Report Bug</a>
     ·
-    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues">Request Feature</a>
+    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab///issues">Request Feature</a>
   </p>
 </p>
 
@@ -117,7 +117,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab.git
+   git clone https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//.git
    ```
 2. Install NPM packages
    ```sh
@@ -138,7 +138,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab///issues) for a list of proposed features (and known issues).
 
 
 
@@ -167,7 +167,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@douwejhorsthuis](https://twitter.com/douwejhorsthuis) - douwehorsthuis@gmail.com
 
-Project Link: [https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab)
+Project Link: [https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//)
 
 
 
