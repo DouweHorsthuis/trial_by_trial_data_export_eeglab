@@ -19,7 +19,7 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab"><strong>Explore the code »</strong></a>
+    <a href="https://https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/tree/main/src"><strong>Explore the code »</strong></a>
     <br />
     <br />
     ·
@@ -46,7 +46,6 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -80,24 +79,15 @@ This code uses both EEGlab functions and EEGlab structures. This means that your
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
+You need to have a copy of [EEGlab] (https://sccn.ucsd.edu/eeglab/download.php) (this script works for version eeglab2019_1)
+In matlab, set path --> add with Subfolders... -->the main eeglab folder --> close 
+[![Product Name Screen Shot][product-screenshot]](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/tree/main/imagesscreenshot_add_path.png)
 
-This is an example of how to list things you need to use the software and how to install them.
+Or you can hardcode this: 
 * npm
   ```sh
   npm install npm@latest -g
   ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
 
 
 <!-- USAGE EXAMPLES -->
