@@ -53,7 +53,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -143,7 +142,7 @@ See the [open issues](https://github.com/DouweHorsthuis/trial_by_trial_data_expo
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/main/LICENSE) for more information.
 
 
 
