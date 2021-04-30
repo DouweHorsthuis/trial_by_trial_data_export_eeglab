@@ -87,28 +87,30 @@ Data: you need to have you .set files epoched and there need to be triggers in t
 To use EEGlab
 [In matlab, set path --> add with Subfolders... -->the main eeglab folder --> close](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/main/images/screenshot_add_path.PNG)
 Or you can hardcode this: 
-* matlab
+
   ```matlab
    addpath(genpath('theplacewhereyouhavethefolder\eeglab2019_1\'));
   ```
 Set-up your variables:
- *matlab
-	```matlab
-	group = 1; %Add here how many groups of participant you have, 4 is max
-	load_path  = 'C:\data\';
-	save_path= 'C:\results\';
-	typefile= '.xlsx';% final file can be saved as mat, txt, dat, csv, xls, xlsm, xlsx or xlsb
-	time_window = [];%specify the begin and end points of the time window of interest in ms either a specific point for N1/MMN/P2
-	name_timewindow= '';%name timewindow of intresset 
-	chan = ''; %channel of interest 
-	name_file = '_epoched'; %the name after the IDnumber (excluding .set)
-	events_in_epoch_cond1 = {'1'}; % what triggers need to be exported.
-	events_in_epoch_cond2 = {'15'}; %
-	events_in_epoch_cond3 = {}; %
-	```
+
+```matlab
+group = 1; 
+load_path  = 'C:\data\';
+save_path= 'C:\results\';
+typefile= '.xlsx'; 
+time_window = [];
+name_timewindow= '';
+chan = '';  
+name_file = '_epoched'; 
+events_in_epoch_cond1 = {'1'}; 
+events_in_epoch_cond2 = {'15'}; 
+events_in_epoch_cond3 = {}; 
+```
 
 *Groups
 	you can choose up to 4 groups. These will be assiged a number (1,2,3,4) so that the groups can be indentified in your next program.
+*typefile
+	final file can be saved as mat, txt, dat, csv, xls, xlsm, xlsx or xlsb
 *time_window
 	the script will give you 1 averaged amplitude for the time (in ms) you input in this variable. For example input here the time of your N1/MMN/P2 or whatever is of interest
 *name_timewindow 
