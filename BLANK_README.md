@@ -1,25 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** DouweHorsthuis, trial_by_trial_data_export_eeglab, douwejhorsthuis, douwehorsthuis@gmail.com, trial_by_trial_data_export_eeglab, project_description
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -33,22 +11,22 @@
 <br />
 <p align="center">
   <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/CNL_logo_Square.jpeg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">trial_by_trial_data_export_eeglab</h3>
+  <h3 align="center">trial by trial data export eeglab</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab"><strong>Explore the code »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab">View Demo</a>
     ·
     <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues">Report Bug</a>
     ·
     <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues">Request Feature</a>
+	.
   </p>
 </p>
 
@@ -84,19 +62,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`DouweHorsthuis`, `trial_by_trial_data_export_eeglab`, `douwejhorsthuis`, `douwehorsthuis@gmail.com`, `trial_by_trial_data_export_eeglab`, `project_description`
+This project is build so that one can automatically export trial by trial data from Matlab to any other file type so that other programs (such as Rstudio) can read the data.
+This code uses both EEGlab functions and EEGlab structures. This means that your data needs to at least be epoched using EEGlab.
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Matlab](https://www.mathworks.com/)
+* [EEGlab](https://sccn.ucsd.edu/eeglab/index.php)
+
 
 
 
