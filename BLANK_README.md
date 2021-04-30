@@ -185,14 +185,14 @@ Project Link: [https://github.com/DouweHorsthuis/trial_by_trial_data_export_eegl
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/DouweHorsthuis/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/DouweHorsthuis/repo/graphs/contributors
+[contributors-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/DouweHorsthuis/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/DouweHorsthuis/repo/network/members
+[forks-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/network/members
 [stars-shield]: https://img.shields.io/github/stars/DouweHorsthuis/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/DouweHorsthuis/repo/stargazers
+[stars-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/stargazers
 [issues-shield]: https://img.shields.io/github/issues/DouweHorsthuis/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/DouweHorsthuis/repo/issues
+[issues-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues
 [license-shield]: https://img.shields.io/github/license/DouweHorsthuis/repo.svg?style=for-the-badge
-[license-url]: https://github.com/DouweHorsthuis/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/DouweHorsthuis
