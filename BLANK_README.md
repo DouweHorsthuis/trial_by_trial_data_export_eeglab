@@ -79,47 +79,52 @@ This code uses both EEGlab functions and EEGlab structures. This means that your
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-You need to have a copy of [EEGlab] (https://sccn.ucsd.edu/eeglab/download.php) (this script works for version eeglab2019_1)
-In matlab, set path --> add with Subfolders... -->the main eeglab folder --> close 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/tree/main/imagesscreenshot_add_path.png)
-[![Product Name Screen Shot][product-screenshot]](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/main/images/screenshot_add_path.PNG)
-Or you can hardcode this: 
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+Software: You need to have a copy of [EEGlab] (https://sccn.ucsd.edu/eeglab/download.php) (this script works for version eeglab2019_1)
+Data: you need to have you .set files epoched and there need to be triggers in this epoched data.  
 
 <!-- ROADMAP -->
 ## Roadmap
+To use EEGlab
+[In matlab, set path --> add with Subfolders... -->the main eeglab folder --> close](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/main/images/screenshot_add_path.PNG)
+Or you can hardcode this: 
+* matlab
+  ```matlab
+   addpath(genpath('theplacewhereyouhavethefolder\eeglab2019_1\'));
+  ```
+Set-up your variables:
+ *matlab
+	```matlab
+	group = 1; %Add here how many groups of participant you have, 4 is max
+	load_path  = 'C:\data\';
+	save_path= 'C:\results\';
+	typefile= '.xlsx';% final file can be saved as mat, txt, dat, csv, xls, xlsm, xlsx or xlsb
+	time_window = [];%specify the begin and end points of the time window of interest in ms either a specific point for N1/MMN/P2
+	name_timewindow= '';%name timewindow of intresset 
+	chan = ''; %channel of interest 
+	name_file = '_epoched'; %the name after the IDnumber (excluding .set)
+	events_in_epoch_cond1 = {'1'}; % what triggers need to be exported.
+	events_in_epoch_cond2 = {'15'}; %
+	events_in_epoch_cond3 = {}; %
+	```
 
+*Groups
+	you can choose up to 4 groups. These will be assiged a number (1,2,3,4) so that the groups can be indentified in your next program.
+*time_window
+	the script will give you 1 averaged amplitude for the time (in ms) you input in this variable. For example input here the time of your N1/MMN/P2 or whatever is of interest
+*name_timewindow 
+	this is for naming the file at the end of the script. to prevent overwriting files if there are mulitple times of intresset
+*name_file
+	this is the part of the .set file that is the same for all your participants (so without the ID)
+*events_in_epoch_cond#
+	you choose here which trigger or tiggers need to be included in the epoch. if you add multiple, it will not necessarily have them all in the epoch together.
+
+*promts
+	the first promt is to see if you have your .set files in indivual folders per subject or in one general folder
+	the second promt will ask how many condtions need to be looked at. these are the ones you defined in events_in_epoch_cond#
+	
 See the [open issues](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues) for a list of proposed features (and known issues).
 
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
@@ -132,18 +137,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Douwe Horsthuis - [@douwejhorsthuis](https://twitter.com/douwejhorsthuis) - douwehorsthuis@gmail.com
 
 Project Link: [https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
