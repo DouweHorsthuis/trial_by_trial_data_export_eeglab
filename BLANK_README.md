@@ -1,3 +1,25 @@
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** DouweHorsthuis, trial_by_trial_data_export_eeglab, douwejhorsthuis, douwehorsthuis@gmail.com, trial_by_trial_data_export_eeglab, project_description
+-->
+
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -11,10 +33,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab">
-    <img src="images/logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">trial by trial data export eeglab</h3>
+  <h3 align="center">trial_by_trial_data_export_eeglab</h3>
 
   <p align="center">
     project_description
@@ -67,7 +89,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`DouweHorsthuis`, `trial_by_trial_data_export_eeglab`, `douwejhorsthuis`, `douwehorsthuis@gmail.com`, `trial by trial data export eeglab`, `project_description`
+`DouweHorsthuis`, `trial_by_trial_data_export_eeglab`, `douwejhorsthuis`, `douwehorsthuis@gmail.com`, `trial_by_trial_data_export_eeglab`, `project_description`
 
 
 ### Built With
@@ -163,14 +185,14 @@ Project Link: [https://github.com/DouweHorsthuis/trial_by_trial_data_export_eegl
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/DouweHorsthuis/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/graphs/contributors
+[contributors-url]: https://github.com/DouweHorsthuis/repo/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/DouweHorsthuis/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/network/members
+[forks-url]: https://github.com/DouweHorsthuis/repo/network/members
 [stars-shield]: https://img.shields.io/github/stars/DouweHorsthuis/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/stargazers
+[stars-url]: https://github.com/DouweHorsthuis/repo/stargazers
 [issues-shield]: https://img.shields.io/github/issues/DouweHorsthuis/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues
+[issues-url]: https://github.com/DouweHorsthuis/repo/issues
 [license-shield]: https://img.shields.io/github/license/DouweHorsthuis/repo.svg?style=for-the-badge
-[license-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/master/LICENSE.txt
+[license-url]: https://github.com/DouweHorsthuis/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/douwe-horsthuis-725bb9188/
+[linkedin-url]: https://linkedin.com/in/DouweHorsthuis
