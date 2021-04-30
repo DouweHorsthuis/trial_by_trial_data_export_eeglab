@@ -80,6 +80,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 Software: You need to have a copy of [EEGlab] (https://sccn.ucsd.edu/eeglab/download.php) (this script works for version eeglab2019_1)
+
 Data: you need to have you .set files epoched and there need to be triggers in this epoched data.  
 
 <!-- ROADMAP -->
@@ -88,9 +89,9 @@ To use EEGlab
 [In matlab, set path --> add with Subfolders... -->the main eeglab folder --> close](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/main/images/screenshot_add_path.PNG)
 Or you can hardcode this: 
 
-  ```matlab
-   addpath(genpath('theplacewhereyouhavethefolder\eeglab2019_1\'));
-  ```
+```matlab
+addpath(genpath('theplacewhereyouhavethefolder\eeglab2019_1\'));
+```
 Set-up your variables:
 
 ```matlab
@@ -108,21 +109,34 @@ events_in_epoch_cond3 = {};
 ```
 
 *Groups
+
 	you can choose up to 4 groups. These will be assiged a number (1,2,3,4) so that the groups can be indentified in your next program.
+	
 *typefile
+
 	final file can be saved as mat, txt, dat, csv, xls, xlsm, xlsx or xlsb
+	
 *time_window
+
 	the script will give you 1 averaged amplitude for the time (in ms) you input in this variable. For example input here the time of your N1/MMN/P2 or whatever is of interest
+
 *name_timewindow 
+
+	
 	this is for naming the file at the end of the script. to prevent overwriting files if there are mulitple times of intresset
 *name_file
+
+	
 	this is the part of the .set file that is the same for all your participants (so without the ID)
 *events_in_epoch_cond#
+
 	you choose here which trigger or tiggers need to be included in the epoch. if you add multiple, it will not necessarily have them all in the epoch together.
 
 *promts
+
 	the first promt is to see if you have your .set files in indivual folders per subject or in one general folder
 	the second promt will ask how many condtions need to be looked at. these are the ones you defined in events_in_epoch_cond#
+	
 	
 See the [open issues](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/issues) for a list of proposed features (and known issues).
 
