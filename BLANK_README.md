@@ -19,13 +19,13 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//"><strong>Explore the docs Â»</strong></a>
     <br />
     <br />
     <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//">View Demo</a>
-    ·
+    Â·
     <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab///issues">Report Bug</a>
-    ·
+    Â·
     <a href="https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab///issues">Request Feature</a>
   </p>
 </p>
@@ -143,7 +143,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@douwejhorsthuis](https://twitter.com/douwejhorsthuis) - douwehorsthuis@gmail.com
+Douwe Horsthuis - [@douwejhorsthuis](https://twitter.com/douwejhorsthuis) - douwehorsthuis@gmail.com
 
 Project Link: [https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab//)
 
