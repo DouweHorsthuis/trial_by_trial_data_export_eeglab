@@ -82,7 +82,7 @@ To get a local copy up and running follow these simple steps.
 You need to have a copy of [EEGlab] (https://sccn.ucsd.edu/eeglab/download.php) (this script works for version eeglab2019_1)
 In matlab, set path --> add with Subfolders... -->the main eeglab folder --> close 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/tree/main/imagesscreenshot_add_path.png)
-
+[![Product Name Screen Shot][product-screenshot]](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/main/images/screenshot_add_path.PNG)
 Or you can hardcode this: 
 * npm
   ```sh
