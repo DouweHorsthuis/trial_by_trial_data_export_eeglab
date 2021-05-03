@@ -78,7 +78,7 @@ This code uses both EEGlab functions and EEGlab structures. This means that your
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-Software: You need to have a copy of [EEGlab] (https://sccn.ucsd.edu/eeglab/download.php) (this script works for version eeglab2019_1)
+Software: You need to have a copy of [EEGlab](https://sccn.ucsd.edu/eeglab/download.php) (this script works for version eeglab2019_1)
 
 Data: you need to have you .set files epoched and there need to be triggers in this epoched data.  
 
@@ -149,7 +149,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/DouweHorsthu
 <!-- CONTACT -->
 ## Contact
 
-Douwe Horsthuis - [@douwejhorsthuis](https://twitter.com/douwejhorsthuis) - douwehorsthuis@gmail.com
+Douwe Horsthuis - [douwejhorsthuis](https://twitter.com/douwejhorsthuis) - douwehorsthuis@gmail.com
 
 Project Link: [https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab](https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab)
 
@@ -167,4 +167,5 @@ Project Link: [https://github.com/DouweHorsthuis/trial_by_trial_data_export_eegl
 [license-shield]: https://img.shields.io/github/license/DouweHorsthuis/trial_by_trial_data_export_eeglab.svg?style=for-the-badge
 [license-url]: https://github.com/DouweHorsthuis/trial_by_trial_data_export_eeglab/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/DouweHorsthuis
+[linkedin-url]: https://www.linkedin.com/in/douwe-horsthuis-725bb9188/
+
